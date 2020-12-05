@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 800px;
+    height: 100vh;
+    background: #e1e8e8;
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+
+}
+.toDoCounts{
+    padding-top: 20px;
+    display:flex;
+    justify-content: space-around;
+}
+button{
+    height: 30px;
+    width: 100px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.list{
+    margin: 10px;
+    padding: 20px;
+    margin: 2px;
+    border-bottom: 1px dotted #574c4c;
+
+}
+h2{
+    padding: 10px;
+}
+.delete{
+    float: right;
+    background-color: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+}
